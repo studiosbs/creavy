@@ -5,7 +5,8 @@
 }
 
 body{
-    
+    font-family: Montserrat;
+    color: #191414;
 }
 
 .header{
@@ -37,4 +38,15 @@ body{
 
 .header .btn i{
     font-size: 25px;
+}
+
+.menu .nav-item a{
+    padding-right: 0 !important;
+    color: #191414;
+    font-weight: 600;
+}
+
+.btn-success{
+    background-color: #1db954;
+    border-color: #1db954;
 }

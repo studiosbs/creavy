@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+}
+
+.header{
+    border-radius: 24px;
+    margin: 16px;
+    border: none;
+    padding: 16px;
+    box-shadow: 0 8px 20px rgb(117 115 111 / 20%) !important;
+}
+
+.sticky{
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    flex-shrink: 0;
+    position: sticky;
+    z-index: 10;
+    top: 16px !important;
+    background-color: rgba(255, 255, 255, 0.75);
+    -moz-background-color: rgb(255, 255, 255);
+    backdrop-filter: blur(15px);
+    -moz-backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+}
+
+.navbar-brand a{
+    margin: 0 !important;
+}
+
+.header .btn i{
+    font-size: 25px;
+}

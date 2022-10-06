@@ -50,3 +50,16 @@ body{
     background-color: #1db954;
     border-color: #1db954;
 }
+
+.btn-toggle:hover,.btn-toggle:focus{
+    color: rgba(25, 20, 20, .85) !important;
+    background-color: #1bd95452 !important;
+}
+
+.btn-toggle{
+    color: #191414 !important;
+}
+
+.card .card_text{
+    margin-top: 150px !important;
+}

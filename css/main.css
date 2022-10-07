@@ -63,3 +63,29 @@ body{
 .card .card_text{
     margin-top: 150px !important;
 }
+
+.btn-primary {
+    background: #1db954 !important;
+    border-color: #1db954;
+    color: #fff;
+}
+
+.bg-dark{
+    background-color: #191414 !important;
+}
+
+.btn-animated .i{
+    animation: btnAnimated 1s ease-in-out infinite;
+    transform: translateY(-2px);
+}
+
+.i{
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    display: inline-flex;
+    font: normal normal normal 1em/1 Material Design Icons;
+    font-size: inherit;
+    vertical-align: middle;
+}

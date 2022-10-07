@@ -153,7 +153,9 @@
             </div>
             <div class="list-rigt justify-content-end">
               <ul class="nav align-items-center">
-                <button class="btn"><i class="fa-regular fa-magnifying-glass"></i></button>
+                <button class="btn" data-bs-toggle="modal" data-bs-target="#searchModal">
+                  <i class="fa-regular fa-magnifying-glass"></i>
+                </button>
                 <button class="btn"><i class="fa-regular fa-bell"></i></button>
                 <button class="btn"><i class="fa-regular fa-circle-user"></i></button>
               </ul>
@@ -164,6 +166,32 @@
     </div>
   </header>
 
+  
+  <!-- search-modal -->
+  <div class="modal fade modal-sheet py-5" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content rounded-4 shadow">
+        <!-- <div class="modal-header border-bottom-0">
+          <h1 class="modal-title fs-5" id="searchModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div> -->
+        <div class="modal-body">
+          <div class="input-group mb-3">
+            <span class="input-group-text"><i class="fa-regular fa-magnifying-glass"></i></span>
+            <div class="form-floating">
+              <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Username">
+              <label for="floatingInputGroup1">Search</label>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer flex-column border-top-0">
+          <button type="button" class="btn btn-lg btn-primary w-100 mx-0 mb-2">Save changes</button>
+          <button type="button" class="btn btn-lg btn-light w-100 mx-0" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
   <!-- header-menu -->
 
   <div class="offcanvas menu offcanvas-start flex-shrink-0 p-3 bg-white" tabindex="-1" id="menu"
@@ -254,6 +282,8 @@
     </div>
   </header>
 
+  
+  
   <div class="container px-4 py-5" id="custom-cards">
     <h2 class="pb-2">How you can fulfill your ideas with creavy</h2>
 
